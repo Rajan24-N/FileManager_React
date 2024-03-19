@@ -11,8 +11,8 @@ the files easily as the server automatically creates a shortened URL for easy sh
 
 <h3><u>Pre-requisites</u></h3><br>
 <ul>
-<li><b>Cloudinary: </b>Used to store assets in cloud database</li>
-<li><b>Mongodb: </b>Used to store meta data of files/folders to maintain hierarchical structure</li>
+<li><b>Cloudinary: </b>Sign up for a Cloudinary account and obtain your API credentials and Used to store assets in cloud database</li>
+<li><b>Mongodb: </b>Used to store meta data of files/folders to maintain hierarchical structure. Install MongoDB on your system or use a cloud-based MongoDB service like MongoDB Atlas. Obtain your connection URI.</li>
 <li><b>Bitly: </b>Used to create a shortend link for file sharing</li>
 <li><b>NodeJs: </b>Used for Backend</li>
 <li><b>ReactJs: </b>Used for Frontend</li>
@@ -28,7 +28,7 @@ the files easily as the server automatically creates a shortened URL for easy sh
 
 <h3><u>Deployment steps</u></h3><br>
 <ul>
-<li>Clone the entire repository to a new folder on desktop</li>
+<li>Clone the entire repository to a new folder on desktop (git clone <repository-url>)</li>
 <li>Open the command prompt from the same folder and type <b>npm install</b>. This will download all the required dependencies which are present in package.json file</li>
 <li>Now create a <b>.env</b> file and add all the private keys in it.</li>
 <li>To start the server enter the command <b>npm start</b></li>
